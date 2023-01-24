@@ -1,0 +1,33 @@
+version: '4.16'
+
+services:
+
+  wordpress:
+    image: wordpress
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: admin
+      WORDPRESS_DB_PASSWORD: admin123
+      WORDPRESS_DB_NAME: florera
+    volumes:
+      - wordpress:/var/www/html
+      - ./wp-content:/var/www/html/wp-content
+
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: florera
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin123
+      # MYSQL_RANDOM_ROOT_PASSWORD: '1'
+      MYSQL_ROOT_PASSWORD: rootpass123
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  db:
+  wordpress:
