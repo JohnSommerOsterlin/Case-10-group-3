@@ -9,9 +9,9 @@ services:
       - 8080:80
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: admin
-      WORDPRESS_DB_PASSWORD: admin123
-      WORDPRESS_DB_NAME: florera
+      WORDPRESS_DB_USER: "${DATABASE_USER}"
+      WORDPRESS_DB_PASSWORD: "${DATABASE_PASSWORD}"
+      WORDPRESS_DB_NAME: "${DATABASE_NAME}"
     volumes:
       - wordpress:/var/www/html
       - ./wp-content:/var/www/html/wp-content
@@ -20,11 +20,11 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_DATABASE: florera
-      MYSQL_USER: admin
-      MYSQL_PASSWORD: admin123
+      MYSQL_DATABASE: "${DATABASE_NAME}"
+      MYSQL_USER: "${DATABASE_USER}"
+      MYSQL_PASSWORD: "${DATABASE_PASSWORD}"
       # MYSQL_RANDOM_ROOT_PASSWORD: '1'
-      MYSQL_ROOT_PASSWORD: rootpass123
+      MYSQL_ROOT_PASSWORD: "${ROOT_PASSWORD}"
     volumes:
       - db:/var/lib/mysql
 
