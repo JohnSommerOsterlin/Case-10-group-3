@@ -2,7 +2,3 @@
 
 # wp-content/plugins
 
-wp-content/*
-!wp-content/themes/
-wp-content/themes/*
-!wp-content/themes/flowerpower/
