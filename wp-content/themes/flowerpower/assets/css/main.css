@@ -91,6 +91,15 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
+
+#header a{
+  color: black;
+}
+.content-area{
+  background-color: lightgreen;
+}
+
+
 section {
   padding: 60px 0;
   overflow: hidden;

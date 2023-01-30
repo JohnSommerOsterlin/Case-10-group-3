@@ -7,7 +7,7 @@ get_header();
 
 <div id="primary" class="content-area">
 
-<h1><php the_title();?></h1>
+<!-- <h1><php the_title();?></h1> -->
 
     <main id="main" class="site-main">
         <?php
@@ -26,3 +26,19 @@ get_header();
 </div>
 <?php
 get_footer();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -19,17 +19,10 @@
 
             <div class="container-fluid d-flex align-items-center justify-content-between">
 
-            <h1>Florera</h1>
+    
 
               <!-- 1 . header menu -->
-    
-        <?php wp_nav_menu (
-                    
-                    array(
-                            'theme_location'  =>  'top-menu',
-                            'theme_class'  =>  'navigation'
-                    )
-            ); ?>
+
 
             <!-- 1. Get in touch with style.css  / Grabs only header.php page -->
             <?php 
