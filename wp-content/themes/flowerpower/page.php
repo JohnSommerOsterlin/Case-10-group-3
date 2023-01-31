@@ -4,6 +4,7 @@
  */
 get_header();
 ?>
+<?php get_template_part('template-parts/page/frontpage') ?> 
 <div id="primary" class="content-area">
     <main id="main" class="site-main">
         <?php
@@ -17,8 +18,7 @@ get_header();
             endif;
         endwhile;
         ?>
-    </main>
-    <?php get_sidebar();  ?>
+    </main> 
 </div>
 <?php
 get_footer();
