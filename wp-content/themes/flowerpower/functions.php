@@ -92,7 +92,7 @@ if ( ! function_exists( 'herobiz_setup' ) ) {
             'header_action' => esc_html__( 'Header Action', 'herobiz' ),
 		) );
 
-		add_filter( 'show_admin_bar', '__return_false' );
+		// add_filter( 'show_admin_bar', '__return_false' );
     }
 }
 add_action( 'after_setup_theme', 'herobiz_setup' );
