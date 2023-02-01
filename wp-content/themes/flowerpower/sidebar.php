@@ -5,5 +5,7 @@
 ?>
 
 <div class="sidebar">
-    <?php dynamic_sidebar( 'default-sidebar' ); ?>
+    <?php if ( is_active_sidebar( 'sidebar-widgets' ) ): ?>
+                <?php dynamic_sidebar( 'sidebar-widgets' ); ?>
+        <?php endif; ?>
 </div>
