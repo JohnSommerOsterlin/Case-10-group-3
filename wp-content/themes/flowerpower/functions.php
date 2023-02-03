@@ -85,17 +85,23 @@ if ( ! function_exists( 'herobiz_setup' ) ) {
 		 */
 		add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio' ) );
 
-        // This theme uses wp_nav_menu() in one location.
-		register_nav_menus( array(
-			'primary' => esc_html__( 'Primary', 'herobiz' ),
-            'footer' => esc_html__( 'Footer Menu', 'herobiz' ),
-            'header_action' => esc_html__( 'Header Action', 'herobiz' ),
-		) );
+        //1. This theme uses wp_nav_menu() in one location.
+		register_nav_menus( 
+			
+			array(
+						'top-menu' => __( 'Top Menu', 'theme'),
+						'footer-menu' => __( 'Footer Menu', 'theme'),
+
+		)
+	 );
 
 		// add_filter( 'show_admin_bar', '__return_false' );
     }
 }
 add_action( 'after_setup_theme', 'herobiz_setup' );
+
+// Able to see links in the header
+add_theme_support('menus');
 
 
 /**
@@ -184,6 +190,11 @@ function herobiz_public_scripts() {
 
 	wp_enqueue_style( 'variables', get_template_directory_uri() . '/assets/css/variables.css', [], wp_rand(), 'all' );
     wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/main.css', [], wp_rand(), 'all' );
+
+	function flowerpower_theme() {
+		wp_enqueue_style( 'style', get_template_directory_uri() );
+	  }
+	add_action( 'wp_enqueue_scripts', 'flowerpower_theme' );
 
     // Scripts.
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js', [ 'jquery' ], wp_rand(), true );
