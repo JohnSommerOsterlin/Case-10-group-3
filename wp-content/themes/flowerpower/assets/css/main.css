@@ -1693,6 +1693,35 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+
+.wpcf7-form {
+  margin-top: 1rem ;
+  text-align: center;
+}
+
+
+.wp-block-column {
+  background-color: antiquewhite;
+  align-items: center;
+}
+
+.wpcf7-submit {
+  background-color: green;
+}
+
+.wp-image-13 {
+  border-radius: 50%;
+  
+}
+
+.wp-block-media-text {
+margin-top: 40%;
+}
+
+.is-layout-flex {
+  margin: 15%;
+  
+}
 .contact .map {
   margin-bottom: 40px;
 }
