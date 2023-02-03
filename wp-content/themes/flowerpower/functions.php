@@ -95,7 +95,7 @@ if ( ! function_exists( 'herobiz_setup' ) ) {
 		)
 	 );
 
-		add_filter( 'show_admin_bar', '__return_false' );
+		// add_filter( 'show_admin_bar', '__return_false' );
     }
 }
 add_action( 'after_setup_theme', 'herobiz_setup' );
@@ -125,19 +125,57 @@ add_action( 'after_setup_theme', 'herobiz_content_width', 0 );
  *
  * @since 1.0.0
  */
-function herobiz_sidebar_widgets_init() {
-	// Default Sidebar
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'herobiz' ),
-		'id'            => 'default-sidebar',
-		'description'   => esc_html__( 'Add widgets here.', 'herobiz' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
-	) );
-}
-add_action( 'widgets_init', 'herobiz_sidebar_widgets_init' );
+// function herobiz_sidebar_widgets_init() {
+// 	// Default Sidebar
+// 	register_sidebar( array(
+// 		'name'          => esc_html__( 'Sidebar', 'herobiz' ),
+// 		'id'            => 'default-sidebar',
+// 		'description'   => esc_html__( 'Add widgets here.', 'herobiz' ),
+// 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+// 		'after_widget'  => '</section>',
+// 		'before_title'  => '<h4 class="widget-title">',
+// 		'after_title'   => '</h4>',
+// 	) );
+
+// 	register_sidebar( array(
+// 		'name'          => esc_html__( 'Footer', 'herobiz' ),
+// 		'id'            => 'footer-sidebar',
+// 		'description'   => esc_html__( 'Add widgets here.', 'herobiz' ),
+// 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+// 		'after_widget'  => '</section>',
+// 		'before_title'  => '<h4 class="widget-title">',
+// 		'after_title'   => '</h4>',
+// 	) );
+// }
+// add_action( 'widgets_init', 'herobiz_sidebar_widgets_init' );
+
+function addkolon_setup_widgets() {
+	register_sidebar(
+	[
+	'id' => 'sidebar-widgets',
+	'name' => __( 'Sidebar Widgets', 'addkolon' ),
+	'description' => __( 'Drag widgets to the sidebar container', 'addkolon' ),
+	'before_widget' => '<section id="%1$s" class="widget %2$s">',
+	'after_widget' => '</section>',
+	'before_title' => '<h4 class="widget-title h5">',
+	'after_title' => '</h4>',
+	]
+	);
+	
+	register_sidebar(
+	[
+	'id' => 'footer-widgets',
+	'name' => __( 'Footer Widgets', 'addkolon' ),
+	'description' => __( 'Drag widgets to the footer container', 'addkolon' ),
+	'before_widget' => '<section id="%1$s" class="widget %2$s">',
+	'after_widget' => '</section>',
+	'before_title' => '<h4 class="widget-title h5">',
+	'after_title' => '</h4>',
+	]
+	);
+	}
+	add_action( 'widgets_init', 'addkolon_setup_widgets' );
+	
 
 /**
  * Enqueue public scripts and styles.

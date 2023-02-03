@@ -21,8 +21,7 @@ get_header();
             endif;
         endwhile;
         ?>
-    </main>
-    <?php get_sidebar();  ?>
+    </main> 
 </div>
 <?php
 get_footer();
