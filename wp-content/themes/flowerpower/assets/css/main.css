@@ -1694,29 +1694,11 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 
-.wpcf7 {
+#wpcf7-f188-p30-o1 {
   margin-top: 1rem ;
   text-align: center;
 }
 
-
-.wp-block-column {
-  background-color: antiquewhite;
-  align-items: center;
-}
-
-.wpcf7-submit {
-  background-color: green;
-}
-
-.wp-image-13 {
-  border-radius: 50%;
-  
-}
-
-.wp-block-media-text {
-margin-top: 40%;
-}
 
 .is-layout-flex {
   margin: 15%;
