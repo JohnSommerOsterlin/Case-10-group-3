@@ -5,8 +5,6 @@
 get_header();
 ?>
 <div id="primary" class="content-area">
-    <?php get_template_part('template-parts/page/frontpage') ?> 
-
     <main id="main" class="site-main">
         <?php
         if ( have_posts() ) :
@@ -29,3 +27,5 @@ get_header();
 </div>
 <?php
 get_footer();
+
+
