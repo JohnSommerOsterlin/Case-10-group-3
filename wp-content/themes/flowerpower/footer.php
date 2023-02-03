@@ -6,79 +6,115 @@
     <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="footer-content">
-    <div class="container">
+        <div class="container">
         <div class="row">
 
         <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-            <h3>HeroBiz</h3>
-            <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
+            
+
+            <body>
+        <!-- <section class='FlexContainer'>
+            <div>    <p>
+            <h3>Florera</h3>
+                S:t knuts Torg 8<br>
+                211 57 Malmö<br><br>
+                <strong>Phone:</strong> 040-979963<br>
                 <strong>Email:</strong> info@example.com<br>
-            </p>
+            </p></div> -->
+
+            <div class="footer-navigation">
+      <?php
+        /* Add footer links */
+        wp_nav_menu( array(
+          'theme_location' => 'footer',
+          'menu_id'        => 'footer-menu',
+          'depth'          => 1,
+        ) );
+      ?>
+    <!-- .footer-navigation --></div>
+
+            <div class="social-media-links">
+            <h4>Social Media</h4>
+
+            <?php
+        /* Add social media links */
+        $facebook_url = 'https://www.facebook.com/yourusername';
+        $twitter_url = 'https://twitter.com/yourusername';
+        $instagram_url = 'https://www.instagram.com/yourusername';
+      ?>
+      <a href="<?php echo esc_url( $facebook_url ); ?>" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="<?php echo esc_url( $twitter_url ); ?>" target="_blank">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="<?php echo esc_url( $instagram_url ); ?>" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
+    </div><!-- .social-media-links --></div>
+         
+        </section>
+        
             </div>
-        </div>
+        
 
-        <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-        </div>
 
-        <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-        </div>
 
-        <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+        
+
+       
 
         </div>
-
         </div>
     </div>
     </div>
 
+    
     <div class="footer-legal text-center">
     <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
         <div class="copyright">
-            &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+            &copy; Copyright <strong><span>2023 Florera</span></strong>. All Rights Reserved
         </div>
 
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <!-- <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Kund Service</h4>
+                            <ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Returer</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Villkor</a></li> 
+                        </ul>
+                        </div>   -->
+
+                        <!-- <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Företaget</h4>
+                            <ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Om Oss</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Frågor & Svar</a></li>
+                            </ul>
+                        </div>  -->
+
+
+                                <!-- <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                            </div> -->
+                                <!-- <form action="" method="post">
+                                <input type="email" name="email"><input type="submit" value="Subscribe">
+                                </form> -->
+
+                            <!-- <div class="credits"> -->
+                                <!-- All the links in the footer should remain intact. -->
+                                <!-- You can delete the links only if you purchased the pro version. -->
+                                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+                                <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            </div> -->
         </div>
+
+      
 
     </div>
     </div>

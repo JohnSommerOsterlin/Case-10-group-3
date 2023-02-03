@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -253,7 +254,7 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation 
 --------------------------------------------------------------*/
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .navbar {
     padding: 0;
   }
@@ -368,11 +369,11 @@ section {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
-}
+} */
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
-@media (max-width: 1279px) {
+/* @media (max-width: 1279px) {
   .navbar {
     position: fixed;
     top: 0;
@@ -660,7 +661,7 @@ section {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
-}
+} */
 /*--------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
@@ -703,6 +704,10 @@ section {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+/* .wp-block-cover__background has-background-dim{
+  background: black;
+} */
 .about .about-img {
   position: relative;
   margin: 60px 0 0 60px;
@@ -2343,6 +2348,21 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.FlexContainer {
+  display: flex;
+justify-content: space-between;
+}
+
+.FlexContainer div {
+  width: 80%;
+  height: 200px;
+  /* width: 100px;
+  height: 100px;
+  margin: 5px; */
+
+}
+
+
 .footer {
   color: var(--color-white);
   font-size: 14px;

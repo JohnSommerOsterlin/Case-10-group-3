@@ -6,6 +6,7 @@ get_header();
 ?>
 
 <div id="primary" class="search-content-area">
+    
     <main id="main" class="site-main">
         <?php
         if ( have_posts() ) :
