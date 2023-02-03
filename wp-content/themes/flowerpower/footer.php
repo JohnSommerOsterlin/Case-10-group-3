@@ -6,38 +6,24 @@
     <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="footer-content">
-     <div class="container">
+        <div class="container">
         <div class="row">
 
         <div class="col-lg-3 col-md-6">
             <div class="footer-info">
+            
+
+            <body>
+        <!-- <section class='FlexContainer'>
+            <div>    <p>
             <h3>Florera</h3>
-            <p>
                 S:t knuts Torg 8<br>
                 211 57 Malmö<br><br>
                 <strong>Phone:</strong> 040-979963<br>
                 <strong>Email:</strong> info@example.com<br>
-            </p>
-            </div>
-        </div>
+            </p></div> -->
 
-        <!-- <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Kund Service</h4>
-            <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Returer</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Villkor</a></li> 
-        </ul>
-        </div>   -->
-
-         <!-- <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Företaget</h4>
-            <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Om Oss</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Frågor & Svar</a></li>
-            </ul>
-        </div>  -->
-
-        <nav class="footer-navigation">
+            <div class="footer-navigation">
       <?php
         /* Add footer links */
         wp_nav_menu( array(
@@ -46,9 +32,9 @@
           'depth'          => 1,
         ) );
       ?>
-        </nav><!-- .footer-navigation -->
+    <!-- .footer-navigation --></div>
 
-        <div class="social-media-links">
+            <div class="social-media-links">
             <h4>Social Media</h4>
 
             <?php
@@ -66,22 +52,25 @@
       <a href="<?php echo esc_url( $instagram_url ); ?>" target="_blank">
         <i class="bi bi-facebook"></i>
       </a>
-    </div><!-- .social-media-links -->
+    </div><!-- .social-media-links --></div>
+         
+        </section>
+        
+            </div>
+        
 
 
-            <!-- <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        </div> -->
-            <!-- <form action="" method="post">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form> -->
+
+        
+
+       
+
         </div>
         </div>
     </div>
     </div>
 
+    
     <div class="footer-legal text-center">
     <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
@@ -89,13 +78,40 @@
         <div class="copyright">
             &copy; Copyright <strong><span>2023 Florera</span></strong>. All Rights Reserved
         </div>
-        <!-- <div class="credits"> -->
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div> -->
+
+                            <!-- <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Kund Service</h4>
+                            <ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Returer</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Villkor</a></li> 
+                        </ul>
+                        </div>   -->
+
+                        <!-- <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Företaget</h4>
+                            <ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Om Oss</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Frågor & Svar</a></li>
+                            </ul>
+                        </div>  -->
+
+
+                                <!-- <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                            </div> -->
+                                <!-- <form action="" method="post">
+                                <input type="email" name="email"><input type="submit" value="Subscribe">
+                                </form> -->
+
+                            <!-- <div class="credits"> -->
+                                <!-- All the links in the footer should remain intact. -->
+                                <!-- You can delete the links only if you purchased the pro version. -->
+                                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+                                <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            </div> -->
         </div>
 
       
