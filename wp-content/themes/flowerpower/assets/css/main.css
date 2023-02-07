@@ -2431,6 +2431,10 @@ h3{
 	color: white;
 }
 
+.column h3{
+  color: white;
+}
+
 
 .footer-legal.text-center{
   background-color: #2A552E;
