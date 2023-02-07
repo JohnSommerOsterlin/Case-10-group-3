@@ -2597,3 +2597,8 @@ h3{
   background: var(--color-primary);
   text-decoration: none;
 }
+
+.entry-content {
+  max-width: 1130px;
+  margin: 0 auto;
+}
