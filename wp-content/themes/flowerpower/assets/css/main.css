@@ -2396,6 +2396,7 @@ justify-content: space-between;
 .footer {
   color:  #2A552E;
   font-size: 14px;
+  color: white;
 }
 .footer .footer-content {
   background:#2A552E ;
@@ -2404,7 +2405,7 @@ justify-content: space-between;
 
 #block-14{
   background-color: #2A552E;
-  height:  250px;
+  height:  200px;
 }
 
 #block-15{
@@ -2416,6 +2417,7 @@ justify-content: space-between;
   margin-bottom: 30px;
 }
 .footer .footer-content .footer-info h3 {
+  background-color: #2A552E;
   font-size: 28px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
