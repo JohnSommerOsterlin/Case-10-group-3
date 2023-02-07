@@ -2398,6 +2398,7 @@ justify-content: space-between;
   font-size: 14px;
   color: white;
 }
+
 .footer .footer-content {
   background:#2A552E ;
   padding: 60px 0 30px 0;
@@ -2412,6 +2413,20 @@ justify-content: space-between;
   background-color: #2A552E;
   height: 0px;
 }
+
+h3{
+	color: white;
+	padding-bottom:15px;
+}
+
+.copyright{
+	color: white;
+}
+
+a{
+	color: black;
+}
+
 
 .footer-legal.text-center{
   background-color: #2A552E;
