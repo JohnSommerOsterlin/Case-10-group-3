@@ -2413,6 +2413,11 @@ justify-content: space-between;
   height: 0px;
 }
 
+.footer-legal.text-center{
+  background-color: #2A552E;
+  color: white;
+}
+
 .footer .footer-content .footer-info {
   margin-bottom: 30px;
 }
