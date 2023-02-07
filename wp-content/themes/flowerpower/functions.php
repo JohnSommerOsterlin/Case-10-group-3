@@ -171,6 +171,7 @@ function addkolon_setup_widgets() {
 	'after_widget' => '</section>',
 	'before_title' => '<h4 class="widget-title h5">',
 	'after_title' => '</h4>',
+	
 	]
 	);
 	}
