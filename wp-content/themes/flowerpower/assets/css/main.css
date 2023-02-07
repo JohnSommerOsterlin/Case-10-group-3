@@ -2404,6 +2404,10 @@ justify-content: space-between;
   padding: 60px 0 30px 0;
 }
 
+.footer-legal.text-center{
+	background-color: #2A552E;
+}
+
 #block-14{
   background-color: #2A552E;
   height:  200px;
@@ -2423,8 +2427,8 @@ h3{
 	color: white;
 }
 
-a{
-	color: black;
+.column a{
+	color: white;
 }
 
 
