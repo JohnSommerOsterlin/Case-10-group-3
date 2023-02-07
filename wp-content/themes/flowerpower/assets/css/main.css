@@ -2366,9 +2366,19 @@ section {
   color: var(--color-white);
 }
 
+/* -------------------------------------------------------------
+Om Oss
+--------------------------------------------------------------- */
+
+/* .is-layout-flex wp-container-3 wp-block-columns{
+  background: black;
+} */
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 .FlexContainer {
   display: flex;
 justify-content: space-between;
@@ -2382,7 +2392,6 @@ justify-content: space-between;
   margin: 5px; */
 
 }
-
 
 .footer {
   color: var(--color-white);
