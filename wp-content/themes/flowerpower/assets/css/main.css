@@ -2401,6 +2401,15 @@ justify-content: space-between;
   background:#2A552E ;
   padding: 60px 0 30px 0;
 }
+
+.footer-legal.text-center{
+	background-color: #2A552E;
+}
+
+.widget {
+	background-color: #2A552E ;
+}
+
 .footer .footer-content .footer-info {
   margin-bottom: 30px;
 }
