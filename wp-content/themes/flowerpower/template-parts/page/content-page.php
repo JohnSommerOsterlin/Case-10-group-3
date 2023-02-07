@@ -5,18 +5,24 @@
 ?>
 <article id="post-<?php the_ID(); ?>">
 
+	<header class="page-header">
+		<?php $bild = get_field( 'bild' ); ?>
+		<?php if ( $bild ) : ?>
+		<img src="<?php echo esc_url( $bild['url'] ); ?>" alt="<?php echo esc_attr( $bild['alt'] ); ?>" />
+		<?php endif; ?>
 
-    <?php
-        /**
-         * Page Thumbnail.
-         */
-        if ( has_post_thumbnail() ) :
-            the_post_thumbnail( 'full' ); // full, large, medium, custom size
-        endif;
-    ?>
+		<div class="page-header-meta">
+			<h1>
+				<?php the_field( 'rubrik' ); ?>
+			</h1>
+			<p>
+				<?php the_field( 'beskrivning' ); ?>
+			</p>
+		</div>
+	</header>
 
-    <div class="entry-content">
-        <?php
+	<div class="entry-content">
+		<?php
             the_content();
 
             wp_link_pages( array(
@@ -24,11 +30,11 @@
                 'after'  => '</div>',
             ) );
         ?>
-    </div>
+	</div>
 
-    <?php if ( get_edit_post_link() ) : ?>
-		<footer class="entry-footer">
-			<?php
+	<?php if ( get_edit_post_link() ) : ?>
+	<footer class="entry-footer">
+		<?php
 			edit_post_link(
 				sprintf(
 					wp_kses(
@@ -46,6 +52,6 @@
 				'</span>'
 			);
 			?>
-		</footer><!-- .entry-footer -->
-    <?php endif; ?>
+	</footer><!-- .entry-footer -->
+	<?php endif; ?>
 </article>
