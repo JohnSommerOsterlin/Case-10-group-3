@@ -2394,7 +2394,7 @@ justify-content: space-between;
 }
 
 .footer {
-  color:  #2A552E;
+ background-color:  #2A552E;
   font-size: 14px;
   color: white;
 }
@@ -2415,7 +2415,7 @@ justify-content: space-between;
 
 #block-15{
   background-color: #2A552E;
-  height: 0px;
+  height: 10px;
 }
 
 h3{
@@ -2436,7 +2436,7 @@ h3{
 }
 
 
-.footer-legal.text-center{
+div .footer-legal.text-center{
   background-color: #2A552E;
   color: white;
 }
