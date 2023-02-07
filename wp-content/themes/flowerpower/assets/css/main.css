@@ -2390,16 +2390,20 @@ justify-content: space-between;
   /* width: 100px;
   height: 100px;
   margin: 5px; */
-
 }
 
 .footer {
   color:  #2A552E;
   font-size: 14px;
 }
-.footer .footer-content {
+
+/* .footer .footer-content {
   background:#2A552E ;
   padding: 60px 0 30px 0;
+} */
+
+#widget[block-14]{
+  background-color: #2A552E;
 }
 
 .footer-legal.text-center{
