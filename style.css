@@ -44,7 +44,7 @@ header .top-bar{
   list-style: none;
   padding: 0;
   display: flex;
-  column-gap: 200px;
+  column-gap: 100px;
 }
 
 header .container{
@@ -69,11 +69,21 @@ header .top-bar li a {
     padding: 0 50px;
   }
 }
+@media screen and (max-width: 1200px) {
+  header .top-bar{
+    column-gap: 50px;
+  }
+}
 @media screen and (max-width: 1100px) {
   header .top-bar{
-    column-gap: 150px;
+    column-gap: 50px;
   }
 
+}
+@media screen and (max-width: 992px) {
+  header .top-bar{
+    column-gap: 30px;
+  }
 }
 
 @media  screen and (max-width: 900px) {
