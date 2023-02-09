@@ -1697,6 +1697,55 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+@media (max-width: 992px) {
+  .wpcf7-submit {
+    width:100%;
+    }
+}
+
+.wpcf7-form-control {
+	display:flex;
+	justify-content:center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 6px 5px 8px -7px rgba(140,137,137,0.75);
+  width: 100%;
+}
+
+
+@media (min-width: 993px) {
+  .wpcf7-form-control {
+    width: 50rem;
+  }
+	
+}
+
+
+.wpcf7{
+		display:flex;
+		justify-content:center;
+		background-color:#9c5a001c;
+		margin:auto;
+		padding-top: 2rem;
+		width:100%
+	}
+
+.wpcf7-submit {
+  background-color: #995221;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+	width:30%
+	}
+
+.wpcf7-submit:hover {
+  background-color: #444;
+}
 
 .contact .map {
   margin-bottom: 40px;
