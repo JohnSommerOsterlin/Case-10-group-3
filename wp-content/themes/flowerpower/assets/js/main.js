@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.onload=function(){
   var hamburger = document.querySelector(".hamburger");
-var navBar = document.querySelector(".menu-main-menu-container");
+var navBar = document.querySelector(".menu-footer-container");
 
 if(hamburger){
   hamburger.addEventListener('click', ()=> {
