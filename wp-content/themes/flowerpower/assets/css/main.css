@@ -214,7 +214,7 @@ section {
   overflow: hidden;
   } */
 
-  #header #menu-footer{
+  #header .menu-footer-container{
     position: absolute;
     left: 0;
     right: 0;
