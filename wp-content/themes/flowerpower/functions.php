@@ -86,14 +86,11 @@ if ( ! function_exists( 'herobiz_setup' ) ) {
 		add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio' ) );
 
         //1. This theme uses wp_nav_menu() in one location.
-		register_nav_menus( 
-			
-			array(
-						'top-menu' => __( 'Top Menu', 'theme'),
-						'footer-menu' => __( 'Footer Menu', 'theme'),
-
-		)
-	 );
+		register_nav_menus( array(
+			'top-menu' => 'Top Menu Location',
+			'mobile-menu' => 'Mobile Menu Location',
+	)
+		);
 
 		// add_filter( 'show_admin_bar', '__return_false' );
     }
