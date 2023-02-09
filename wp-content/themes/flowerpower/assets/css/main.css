@@ -237,7 +237,7 @@ section {
   #header .top-bar li a {
     margin-bottom: 12px;
   }
-  #header .menu-main-menu-container.active{
+  #header .menu-footer-container.active{
     height: 1500px;
   }
   #header .top-bar {
