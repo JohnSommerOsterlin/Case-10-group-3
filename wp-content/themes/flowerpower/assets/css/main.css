@@ -1817,6 +1817,7 @@ section {
   font-weight: 400;
   color: var(--color-secondary);
 }
+
 .recent-blog-posts .post-box .post-title {
   font-size: 24px;
   color: var(--color-secondary);
@@ -1850,7 +1851,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact Section
+# Contact section 
 --------------------------------------------------------------*/
 @media (max-width: 992px) {
   .wpcf7-submit {
