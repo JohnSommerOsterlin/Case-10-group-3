@@ -200,7 +200,21 @@ section {
     background-color: black;
     
   }
-  #header .menu-main-menu-container{
+
+  /* #header .menu-main-menu-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 0;
+    transition: 0.5s;
+  background-color: #F4F4F4;
+  z-index: 10;
+  overflow: hidden;
+  } */
+
+  #header #menu-footer{
     position: absolute;
     left: 0;
     right: 0;
@@ -212,6 +226,7 @@ section {
   z-index: 10;
   overflow: hidden;
   }
+
   #header .top-bar {
     display: block;
     width: fit-content;
