@@ -5,6 +5,7 @@
 ?>
 <article id="post-<?php the_ID(); ?>">
 
+<!-- header -->
 	<header class="page-header">
 		<?php $bild = get_field( 'bild' ); ?>
 		<?php if ( $bild ) : ?>
