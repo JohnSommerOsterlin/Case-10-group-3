@@ -222,6 +222,7 @@ section {
     width: 100vw;
     height: 0;
     transition: 0.5s;
+  background-color: white;
   z-index: 10;
   overflow: hidden;
   }
