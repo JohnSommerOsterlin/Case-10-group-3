@@ -16,7 +16,7 @@
 			<h1 style="color:white;">
 				<?php the_field( 'rubrik' ); ?>
 			</h1>
-			<p>
+			<p style="color:white;" >
 				<?php the_field( 'beskrivning' ); ?>
 			</p>
 		</div>
