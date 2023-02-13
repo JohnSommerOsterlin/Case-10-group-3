@@ -615,6 +615,21 @@ section {
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
+
+/* Shop buttons */
+
+.add_to_cart_button {
+  background-color: darkgreen;
+}
+
+.single_add_to_cart_button {
+  background-color: darkgreen;
+}
+
+button{
+  background-color: darkgreen;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
