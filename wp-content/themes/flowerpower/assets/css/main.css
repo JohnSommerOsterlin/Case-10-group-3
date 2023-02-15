@@ -2806,3 +2806,9 @@ h3{
   background: var(--color-primary);
   text-decoration: none;
 }
+
+
+/* shop */
+.wc-block-grid__products .wc-block-grid__product-image img{
+  min-width: 100%;
+}
