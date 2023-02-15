@@ -119,6 +119,10 @@ section {
 
 /*  menu navbar */
 
+.site-title {
+  margin-bottom: 0;
+}
+
 #header{
   background: #FFFFFF;
   width: 100%;
