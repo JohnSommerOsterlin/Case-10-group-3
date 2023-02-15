@@ -145,6 +145,7 @@ section {
   padding: 0;
   display: flex;
   column-gap: 100px;
+  margin-bottom: 0;
 }
 
 #header .container{
