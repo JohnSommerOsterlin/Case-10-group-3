@@ -223,9 +223,10 @@ section {
     width: 100vw;
     height: 0;
     transition: 0.5s;
-  background-color: #F4F4F4;
-  z-index: 10;
-  overflow: hidden;
+    background-color: #F4F4F4;
+    z-index: 10;
+    overflow: hidden;
+    margin-bottom: 0;
   }
 
   #header .top-bar {
