@@ -226,7 +226,10 @@ section {
     background-color: #F4F4F4;
     z-index: 10;
     overflow: hidden;
-    margin-bottom: 0;
+  }
+
+  #menu-footer {
+    margin-bottom: 0px;
   }
 
   #header .top-bar {
