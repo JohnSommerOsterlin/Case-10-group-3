@@ -226,6 +226,8 @@ section {
     background-color: #F4F4F4;
     z-index: 10;
     overflow: hidden;
+    display: flex;
+    align-items: center;
   }
 
   #menu-footer {
