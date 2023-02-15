@@ -11,9 +11,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
 :root {
   scroll-behavior: smooth;
 }
@@ -225,7 +223,7 @@ section {
     width: 100vw;
     height: 0;
     transition: 0.5s;
-  background-color: white;
+  background-color: #F4F4F4;
   z-index: 10;
   overflow: hidden;
   }
@@ -388,6 +386,7 @@ section {
   height: 440px;
   position: relative;
   overflow: hidden;
+  margin-top: 10%;
   }
   .page-header img {
   min-width: 100%;
@@ -618,24 +617,6 @@ section {
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
-
-/* Shop buttons */
-
-.add_to_cart_button {
-  background-color: darkgreen;
-}
-
-.wp-element-button {
-  background-color: darkgreen;
-}
-
-
-/* Shop page */
-
-.product {
-  margin-top: 3rem;
-}
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
