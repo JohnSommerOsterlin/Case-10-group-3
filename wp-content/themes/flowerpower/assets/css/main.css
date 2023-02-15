@@ -2812,3 +2812,8 @@ h3{
 .wc-block-grid__products .wc-block-grid__product-image img{
   min-width: 100%;
 }
+
+.wc-block-components-product-title a {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.6rem;
+}
