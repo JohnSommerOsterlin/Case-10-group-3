@@ -242,9 +242,9 @@ section {
     text-align: center;
     opacity: 0;
   }
-  #header .top-bar li a {
+  /* #header .top-bar li a {
     margin-bottom: 12px;
-  }
+  } */
   #header .menu-footer-container.active{
     height: 1500px;
   }
